@@ -3,13 +3,13 @@ let themeDots = document.querySelectorAll('.theme-dot');
 
 const setTheme = (mode) => {
   if (mode === 'light') {
-    linkElement.href = 'style.css';
+    linkElement.href = './css/style.css';
   } else if (mode === 'blue') {
-    linkElement.href = 'blue.css';
+    linkElement.href = './css/blue.css';
   } else if (mode === 'green') {
-    linkElement.href = 'green.css';
+    linkElement.href = './css/green.css';
   } else if (mode === 'purple') {
-    linkElement.href = 'purple.css';
+    linkElement.href = './css/purple.css';
   }
   localStorage.setItem('theme', mode);
 };
